@@ -15,7 +15,7 @@ public class Demo0122Application {
 
 	@RequestMapping("/hlloo")
 	public String hello(){
-		System.out.println("dev2");
+		System.out.println("masert3");
 		return "hello";
 	}
 	
