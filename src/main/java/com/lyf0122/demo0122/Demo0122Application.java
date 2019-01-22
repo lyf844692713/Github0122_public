@@ -15,8 +15,10 @@ public class Demo0122Application {
 
 	@RequestMapping("/helllo")
 	public String hello(){
+		System.out.println("123s");
 		return "hello";
 	}
+	
 
 }
 
