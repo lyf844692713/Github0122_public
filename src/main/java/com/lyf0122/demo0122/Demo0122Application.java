@@ -13,7 +13,7 @@ public class Demo0122Application {
 		SpringApplication.run(Demo0122Application.class, args);
 	}
 
-	@RequestMapping("/helllo")
+	@RequestMapping("/hello")
 	public String hello(){
 		System.out.println("123s");
 		return "hello";
